@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+.container {
+	width: 75%;
+	margin: 200px auto;
+	text-align: center;
+}
+
+h1 {
+	color: green;
+	margin-bottom: 10px;
+}
