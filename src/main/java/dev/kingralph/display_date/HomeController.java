@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class HomeController {
 	java.util.Date date = new java.util.Date();
-	SimpleDateFormat currentDate = new SimpleDateFormat("EEEE', the 'd' of 'MMMM', 'yyyy");
+	SimpleDateFormat currentDate = new SimpleDateFormat("EEEE, 'the' dd 'of' MMMM, yyyy");
 	SimpleDateFormat currentTime = new SimpleDateFormat("h:mm a");
 	
 	@RequestMapping("/")
